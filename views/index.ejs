@@ -1,44 +1,3 @@
-<!-- <!DOCTYPE html>
-<a href='/auth/logout' >Logout</a>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-    <link rel="stylesheet" href="/style.css">
-    <h1>Home Page</h1>
-    <h3>Under construction</h3>
-    <a href = "auth/tourist_register">Register User</a>
-    
-    
-    <% siteinfo.forEach((site) =>{ %> 
-        <div class = "blog-item">
-            <div class = "blog-img">
-            <img src = "images/energy.jpg" alt = "">
-            </div>
-            <div class = "blog-text">
-            <span>20 January, 2020</span>
-            <h2><%= site.name %></h2>
-            <p><%= site.description %></p>
-            <a href = "#">Read More</a>
-            </div> 
-    <% })  %>
-    
-
-</body>
-</html>
- -->
-
-
-
-<!-- this is upper part -->
-
-
-
 
 <%- include("header") -%>
     <header>
@@ -53,12 +12,90 @@
         </div>
     </header>
 
-    <br>
-    <br>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3>First</h3>
+          <p>Identify the technological preparedness for energy systems in Nepal.</p>
+        </div>
+  
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3>Second</h3>
+          <p>Identify and discuss the policies and framework promoting energy and its infrastructure.</p>
+        </div>
+  
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3>Third.</h3>
+          <p>Build and promote network and partnership among the stakeholders for the energy development and the transition of Nepal.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <!-- <section id="cta">
+        <h3 class="cta-title">Key Objectives</h3>
+      </section> -->
+    
+      <section>
+        <h2 class="my-5" style="text-align: center;">About Us</h2>
+        <div class="container mt-5 mb-5">
+          <div class="row g-2">
+            <div class="col-md-6">
+              <div class="card p-3 text-center px-4">
+                <div class="user-image">
+                  <img src="images/about1.jpeg" class="rounded-circle" width="80">
+                </div>
+                <div class="user-content">
+                  <h5 class="mb-0 mt-2">About Conference</h5>
+                  <span style="color: #495371">Conference Detail</span>
+                  <p class="my-2" style="text-align: justify;"> Conference on Renewable Energy and its Policies, for both engineering and law, is a unique opportunity for students to learn about the various aspects of energy, including production, distribution, and consumption, as well as the legal frameworks that govern the industry. The Conference would bring together experts and students from the engineering and law fraternity to discuss and debate the current state of energy production and consumption, the challenges faced by the industry, and the potential solutions. The event would be an excellent platform for students to interact with experts and practitioners in the energy industry, including engineers, lawyers, policymakers, and academics. </p>
+                </div>
+                <div class="ratings">
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 text-center px-4">
+                <div class="user-image">
+                  <img src="images/gridville.jpg" class="rounded-circle" width="80">
+                </div>
+                <div class="user-content">
+                  <h5 class="mb-0 mt-2">About GridVille</h5>
+                  <span style="color: #495371">About GridVille</span>
+                  <p class="my-2" style="text-align: justify;">
+                     
+                      The GridVille Program, a collaborative effort between Kathmandu University (KU) and the Norwegian University of Science and Technology (NTNU), is a pioneering initiative aimed at advancing the development of sustainable energy systems within a circular economy framework. With a focus on promoting renewable energy and fostering a more sustainable approach to resource management, the program seeks to address the pressing challenges posed by climate change and limited natural resources.
+                     
+                  </p>
+                </div>
+                <div class="ratings">
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                  <i class="icon fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <br>
     <br> 
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="photo-container">
@@ -74,10 +111,8 @@
         </div>
       </div>
 
-      <br>
-    <br>
-    <br>
-    <br> 
+    
+    
 
     <div class="container">
         <div class="row">
@@ -93,17 +128,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       
-<br>
-<br>
-<br>
+      <section id="cta">      
       <!-- This is the form for sending message -->
       <div class="container">
         <div class="py-5 text-center">
             
-            <h2>Send us a Message</h2>
+            <h2 class="cta-title">Send us a Message</h2>
         
         </div>
     
@@ -143,7 +176,7 @@
             </div>
         </div>
 
-
+      </section>
     <!-- end of header -->
 
 

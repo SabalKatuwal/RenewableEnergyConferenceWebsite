@@ -73,6 +73,21 @@ router.get('/contact_us', (req,res)=>{
   return res.render('contact_us')
 });
 
+//exploreKtm
+router.get('/exploreKtm', (req,res)=>{
+  return res.render('exploreKtm')
+});
+
+//travelAndVisaInfo
+router.get('/visa_and_travel_info', (req,res)=>{
+  return res.render('visa_and_travel_info')
+});
+
+//venue
+router.get('/venue', (req,res)=>{
+  return res.render('venue')
+});
+
 router.get('/search_result', (req,res)=>{
   return res.render('search_result')
 });
